@@ -72,7 +72,7 @@ Rather than naively selecting the highest-F1 model, this project ranks all 10 mo
 
 ![TOPSIS Ranking](outputs/topsis_ranking.png)
 
-- **Quality-weighted ranking:** BERT ranks **#1** (score 0.852) — the best raw predictive performance
+- **Quality-weighted ranking:** BERT ranks **#1** (score 0.950) — the best raw predictive performance
 - **Efficiency-weighted ranking:** LSTM ranks **#1** (score 0.850), with BERT falling to **#9** (score 0.505) — BERT's approximately 2.5-point F1 advantage does not offset being roughly 17 times slower at inference and roughly 6 times larger
 
 This reveals a genuine, defensible tradeoff: **BERT is the right choice when predictive quality is paramount; LSTM is the right choice under latency or resource constraints** — exactly the kind of nuanced tradeoff a real deployment decision requires.
