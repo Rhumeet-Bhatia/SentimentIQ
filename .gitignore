@@ -1,2 +1,10 @@
+# .gitignore
+
+# Large model weights - hosted separately on HuggingFace Hub
 weights/
+
+# Yelp dataset - not redistributable per Yelp's terms, and far too large for GitHub
 yelp_academic_dataset_review.json
+
+# Jupyter auto-save checkpoint folders - clutter, not meant to be tracked
+.ipynb_checkpoints/
